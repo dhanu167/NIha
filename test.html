@@ -38,7 +38,7 @@
 <option>Marion</option>
 </select></td></tr>
 <tr><td align="left"><b> Broker </b><select type="text">
-</select></td></tr>
+</select></td></tr> <!-- will this be a blank tab ? or will be pulled based on the Cluster type? -->
 <tr><td align="left"><b> Requirement </b><select type="text">
 <option selected><b>--SELECT--</b></option>
 <option> AMQURL </option>
@@ -46,7 +46,7 @@
 <option> Credentials </option>
 </select></td</tr>
 <tr><td align="left"><b> UserID </b><input type="text" maxlength="6" required></td></tr><br>
-<tr><td align="left"><b> Password </b><input type="text" maxlength="6" required></td></tr></table><br>
+<tr><td align="left"><b> Password </b><input type="password" maxlength="6" required></td></tr></table><br>
 <input type="submit" id="Submit" name="Submit" value="Submit">
 <input type="reset" name="reset" value="Reset" onclick="window.location.reload(true)">
 
